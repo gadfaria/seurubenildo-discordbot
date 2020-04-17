@@ -1,0 +1,27 @@
+{
+  "name": "seurubenildo",
+  "version": "1.0.0",
+  "description": "Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/gadfaria/seurubenildo-discordbot.git",
+  "author": "Gabriel Alves de Faria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gadfaria/seurubenildo-discordbot/issues"
+  },
+  "homepage": "https://github.com/gadfaria/seurubenildo-discordbot#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.1.0",
+    "discord.js": "^12.1.1",
+    "dotenv": "^8.2.0",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "google-auth-library": "^6.0.0",
+    "googleapis": "^49.0.0",
+    "node-fetch": "^2.6.0",
+    "ytdl-core": "^2.0.1"
+  }
+}
