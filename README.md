@@ -7,11 +7,8 @@ A simple discord bot to play music on your server.
 
 ## Commands
 
-- Play music 
-- Skip music
-- Stop music
-- Pause music
-- Resume music
+- Music functions
+- Informations
 
 ## Installation 
 
@@ -30,12 +27,16 @@ yarn
 
 Create a file with the name of .env following the example of .env.example
 
-TOKEN = Your bot's authentication token
-
-PREFIX = Command prefix
-
-YOUTUBEKEY = Your key to the YouTube API
+| Option | Description |
+| ------ | ------ |
+| PREFIX | Command prefix |
+| TOKEN_DISCORD | Your bot's authentication token |
+| GOOGLE_KEY | Your bot's authentication google token |
 
 To initialize your bot use the command:
 
 ```$ nodemon```
+
+<h5 align="center">
+  ☕ Code and Coffee
+</h5>

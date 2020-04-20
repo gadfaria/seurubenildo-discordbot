@@ -2,7 +2,7 @@
 node_modules/
 
 #lock 
-yarn.lock/
+yarn.lock
 
 # dotenv environment variables file
 .env
