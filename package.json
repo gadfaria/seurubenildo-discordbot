@@ -19,9 +19,7 @@
     "dotenv": "^8.2.0",
     "ffmpeg": "^0.0.4",
     "fluent-ffmpeg": "^2.1.2",
-    "google-auth-library": "^6.0.0",
-    "googleapis": "^49.0.0",
-    "node-fetch": "^2.6.0",
+    "simple-youtube-api": "^5.2.1",
     "ytdl-core": "^2.0.1"
   }
 }

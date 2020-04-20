@@ -12,7 +12,6 @@ A simple discord bot to play music on your server.
 - Stop music
 - Pause music
 - Resume music
-- Informations
 
 ## Installation 
 

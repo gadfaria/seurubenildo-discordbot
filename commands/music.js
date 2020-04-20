@@ -1,7 +1,7 @@
 const { MessageEmbed } = require("discord.js");
 
 module.exports = {
-  name: "song",
+  name: "music",
   emoji: "🎵",
   description: "Mostra a musica que esta tocando",
   execute(message) {
@@ -9,16 +9,16 @@ module.exports = {
       const serverQueue = message.client.queue.get(message.guild.id);
       if (!serverQueue) return message.channel.send("Não tem nada tocando.");
 
-      const songMessage = new MessageEmbed()
-        .setTitle(serverQueue.songs[0].title)
+      const musicMessage = new MessageEmbed()
+        .setTitle(serverQueue.musics[0].title)
         .setColor(0xff0000)
-        .setThumbnail(serverQueue.songs[0].thumbnail)
+        .setThumbnail(serverQueue.musics[0].thumbnail)
         .setDescription(
-          `▶️** Musica escolhida pelo ${serverQueue.songs[0].member}**`
+          `▶️** Musica escolhida pelo ${serverQueue.musics[0].member}**`
         )
-        .setURL(serverQueue.songs[0].url);
+        .setURL(serverQueue.musics[0].url);
 
-      return message.channel.send(songMessage);
+      return message.channel.send(musicMessage);
     } catch (error) {
       return message.channel.send(error);
     }

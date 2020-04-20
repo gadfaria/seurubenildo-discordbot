@@ -12,7 +12,7 @@ module.exports = {
           "Entra no canal de voz arrombado!"
         );
 
-      serverQueue.songs = [];
+      serverQueue.musics = [];
 
       serverQueue.connection.dispatcher.end();
 

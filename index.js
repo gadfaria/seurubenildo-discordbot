@@ -49,4 +49,4 @@ seuRubenildo.on("message", async (message) => {
   }
 });
 
-seuRubenildo.login(process.env.TOKEN);
+seuRubenildo.login(process.env.TOKEN_DISCORD);
