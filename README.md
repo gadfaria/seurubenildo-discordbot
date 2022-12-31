@@ -1,7 +1,4 @@
 # seurubenildo-discordbot
-<div align="center"">
-    <a href="https://discord.js.org/#/" target="_blank"><img src="https://img.shields.io/badge/Biblioteca-discord.js-%23738adb" alt="Biblioteca"/></a>
-  </div>
 
 A discord bot to play music on your server from YouTube.
 
